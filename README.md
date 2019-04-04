@@ -1,7 +1,7 @@
 # PLP5-6
 Variable and naming rules explored
 
- What is the syntax for declaring a function in your language? 
+1. What is the syntax for declaring a function in your language? 
 
 The data type of the function, the name of the function, then the parameters followed by the actual statements in the function which are enclosed in brackets. 
 
