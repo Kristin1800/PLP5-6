@@ -22,7 +22,8 @@ No, unless an exception is used.
 
 6. Declare a variable (say, x) in the main body of your program. Then declare a variable of the same name inside of a loop. Is there a conflict? Is the old variable overwritten or do you now have two variables of the same name? 
 
-The code still runs with two different values named the same thing, but whatever I declared most recently overwrote the old variable. 
+It all has to do with the scope of an identifier. An identifier is simply a name given to an entity (object, function, typedef name and so on)  The same identifier can denote different entities at different points in the program. For each different entity that an identifier designates, the identifier is visible (i.e., can be used) only within a region of program text called its scope.
+If an identifier designates two different entities in the same name space, the scopes might overlap. If so, the scope of one entity (the inner scope) will end strictly before the scope of the other entity (the outer scope). 
 
 7. What if the other x is inside a function? 
 	
